@@ -77,6 +77,7 @@ var v;
 // literal-style objects
 // ---------------------------------------------------------
 // a. Object
+
 var config = new Object(); // Obj-wrapper
 config.url = "http://"
 config.httpMethod = "GET";
@@ -85,6 +86,7 @@ config.onSuccess = function () {
 
 }
 // or ( literal style )
+
 var newConfig = {
     url: 'http://',
     httpMethod: 'GET',
@@ -94,6 +96,7 @@ var newConfig = {
 };
 // ---------------------------------------------------------
 // b. Array / list
+
 var menu = new Array();
 menu[0] = "idly"
 menu.push('vada');
@@ -108,6 +111,7 @@ var newAdharPattern = /\d{4}-\d{4}-\d{4}/;
 
 // ---------------------------------------------------------
 // c. Function
+
 var add = new Function("n1", "n2", "var r=n1+n2;return r;")
 // or
 function add(n1, n2) {
@@ -115,12 +119,9 @@ function add(n1, n2) {
 }
 // ---------------------------------------------------------
 
-
 // How to access obj's properties ?
-
 /*
     in 2 ways
-
     -> . notation , if propert is valid indenfier
     else
     -> [] notation
