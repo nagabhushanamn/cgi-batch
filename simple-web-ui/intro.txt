@@ -71,15 +71,15 @@ problems with plain-js ( your code ) with browser-api
 
     MVC & MVVM based javascript lib & F.Ws
 
-    2. Knockout.JS
-    3. Backbone.JS
-    4. Angular.JS
-    5. Ember.JS
+    2. Knockout
+    3. Backbone
+    4. Angular
+    5. Ember
     ...
 
     component based javascript lib & F.Ws
 
-    6. React.JS
+    6. React
     7. Angular
     8. Aurelai
     9. Vue
@@ -87,6 +87,26 @@ problems with plain-js ( your code ) with browser-api
     ........
 
 -------------------------------------------------------------------
+.js-lang is
+  -> all IO is non-blocking
+  -> single-threaded process , but we can execute cuncurrent actions due to non-blocking IO
+
+-------------------------------------------------------------------
+
+browser e.g chrome
+
+  1. javascript runtime/engine ( v8 )   : based on ECMAScript spec
+      - single-call-stack   ==> to execute functions
+      - heap                ==> to hold objects
+  2. web-APIs ( e.g DOM, XHR, Timer , HTML-5 APIs )  : based on w3c reccomendation
+  3. Event-Queue
+  4. Event-Loop
+
+ref: https://developer.mozilla.org/bm/docs/Web/JavaScript/EventLoop
+   : http://latentflip.com/loupe
+  -------------------------------------------------------------------
+
+
 
 
                
