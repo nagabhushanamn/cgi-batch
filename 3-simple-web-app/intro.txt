@@ -42,7 +42,7 @@ HTML 5 APIs
 
 ===========================================================
 JavaScript is :
-    -> all IO operations are Non-blocking-IO    
+    -> all IO operations are Non-blocking   
     -> single-threaded process, but we can execute concurrent action while IO happening
 ------------------------------------------------------------------
  browser e.g chrome

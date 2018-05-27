@@ -6,7 +6,7 @@
 
 /*
 // 1. function declaration
-        => Name function
+        => Named function
         => function-obj created at scope-creation phase
         => always get hoist with function-obj
 // 2. function expression
@@ -30,9 +30,11 @@
 // 2. function expression
 
 // console.log(add(12, 13)) // error
+
 // var add = function (n1, n2) {
 //     return n1 + n2;
 // }
+
 // console.log(add(12, 13))
 
 //----------------------------------------------------
@@ -181,7 +183,17 @@
 //     console.log(rest)
 
 // }
-// func(1, 2, 3, 4, 5, 6, 7, 8, 9);
+// func(undefined,2);
+
+// function func(a,b){
+//     return function(a){
+//         return a+b;
+//     }
+// }
+
+// let newF=func(undefined,12);
+// let result=newF(13);
+
 
 //----------------------------------------------------
 

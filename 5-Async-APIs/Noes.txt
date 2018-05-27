@@ -1,0 +1,12 @@
+
+on event , event-handler always executes async ( default )
+
+
+----------------------------------------------------
+
+Async API  ( ES6 )
+
+    - Promise API
+    - RxJS ( Reactive eXtensions of javaScript)  -> 
+
+----------------------------------------------------    

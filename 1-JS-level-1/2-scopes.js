@@ -43,7 +43,6 @@
 // var v = 12;
 // function f1() {
 //     function f2() {
-//         var v = 14;
 //         console.log(v);
 //     }
 //     f2();  // f2-scope <= f1-scope 
