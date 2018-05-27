@@ -28,6 +28,9 @@ export default class TodoService {
 
     }
     getTodos(filter) {
-
+        switch (filter) {
+            case 'ALL':
+                this.todos.forEach(todo => console.log(todo));
+        }
     }
 }
