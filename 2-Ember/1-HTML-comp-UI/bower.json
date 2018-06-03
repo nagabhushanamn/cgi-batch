@@ -1,0 +1,20 @@
+{
+  "name": "html-comp-ui",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nagabhushanam <nagabhushanamn@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nagabhushanamn/cgi-batch",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}

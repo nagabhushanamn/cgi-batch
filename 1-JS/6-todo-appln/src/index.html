@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+</head>
+
+<body class="container">
+    <hr/>
+    <h1>Todo-app</h1>
+    <hr/>
+
+    <div class="alert alert-info">
+        <input class="form-control" id="new-todo"/>
+    </div>
+
+    <ul class="list-group" id="todo-list">
+    </ul>
+
+    <script type="text/handlebar" id="todo-handlebar-template">
+        {{#this}}
+        <li class="list-group-item">
+            <div>
+                <input type="checkbox" {{#if completed}} checked {{/if}} />
+                <label>{{title}}</label>
+                <button class="btn btn-sm btn-danger">
+                    delete
+                </button>
+            </div>
+        </li>
+        {{/this}}
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+
+</body>
+
+</html>

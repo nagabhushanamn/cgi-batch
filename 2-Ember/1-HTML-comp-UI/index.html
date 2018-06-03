@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body class="container">
+    <hr/>
+    <h1>HTML-comp-UI</h1>
+    <hr/>
+    <div id="box" class="alert alert-info">
+        <input id="inp" type="number" onchange="handleChange()" />
+        <hr/>
+        <span id="span" class="badge badge-primary">0</span>
+    </div>
+    <script>
+        let inpEle = document.getElementById('inp');
+        let spanEle = document.getElementById('span');
+        let count = 0;
+        setInterval(() => {
+            count++;
+            inpEle.value = count; // changing state
+            inpEle.dispatchEvent(new Event('change'));
+        }, 2000);
+        function handleChange() {
+            spanEle.innerText = count;
+        }    
+    </script>
+</body>
+
+</html>

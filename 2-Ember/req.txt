@@ -1,0 +1,21 @@
+
+--------------------------------
+- html
+- css
+- javascript ( ES5 , ES6 , ES7)
+--------------------------------
+F.W
+    -> Ember.js    
+unit-testing F.W
+    -> jasmine , mocha , jest , etc...    
+-------------------------------
+Tools  which run at Node.js runtime : to develope front-end appln
+    -> NPM   -> package manager
+    -> Bower -> package manager
+    -> Babel -> tanspiler
+    -> css-processor compilers like LESS or SASS compiler
+    -> grunt, gulp or Webpack -> module bundler
+    -> dev-server with live-reload support
+--------------------------------    
+cli => ember-cli
+--------------------------------    
