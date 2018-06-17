@@ -1,0 +1,31 @@
+
+
+-------------------------------------
+> ember new app-name
+> cd app-name
+> ember install ember-bootstrap-4
+> ember install ember-truth-helpers
+
+-------------------------------------
+
+> ember g route <route-name>
+> ember g route <route-name>/>child-route>
+> ember g component <my-component>
+
+--------------------------------------
+
+e.g shop UI
+
+defines routes
+
+    > application route ( default )
+    > application index-route -> for dashboard ( default child)
+
+    > defines products-route
+    > defines products-inde-route - ( default child)
+
+defines components 
+
+    > define my-product component
+
+-------------------------------------------    
