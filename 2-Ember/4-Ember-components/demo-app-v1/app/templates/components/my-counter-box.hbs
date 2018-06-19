@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header">
+        counter-box-component :
+        <span class="badge badge-success">{{totalCount}}</span></div>
+    <div class="card-body">
+        {{#each nums as |n|}}
+        {{my-action-button value=n onAction=(action 'incrementTotalCount' )}}
+        {{/each}}
+        <div style="clear: both;">
+            <hr/>
+            {{my-total-count-display value=totalCount}}
+        </div>
+    </div>
+</div>
